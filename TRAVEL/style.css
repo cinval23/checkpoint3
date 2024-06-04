@@ -1,0 +1,90 @@
+.nav-image{
+    height: 50px;
+    width: 40px;
+    border-radius: 50px;
+}
+.navbar-collapse{
+    display:flex ;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin: 20px;
+    font-size: large;
+}
+.navbar-nav li{
+    gap: 2px;
+    margin-left: 150px;
+    /* padding-left: 2px; */
+
+}
+.explore{
+    margin-left: 500px;
+    margin-bottom: 500px;
+}
+.mid{
+    margin: 50px;
+    margin-left: 200px;
+    
+}
+.container{
+    margin: 0 0 50px 0;
+}
+.sap{
+    margin-left: 150px;
+}
+.sap2{
+    margin-left: 100px;
+}
+
+.img{
+    height: 400px !important;
+}
+
+.but1{
+    background-color: red;
+    margin-left: 400px;
+}
+
+.but2{
+    margin: -180px 0 0 590px;
+}
+.btn-primary{
+    /* background-color: red; */
+}
+.footer{
+    background-color: red;
+    color: black;
+    font-size: 20px ;
+    height: 50px;
+    text-align: center;
+    padding: 10px  0 0 0;
+    margin: 10px;
+}
+.ft{
+    border-radius: 50% !important;
+    /* padding-right: 50px; */
+    height: 30px;
+    width: 30px;
+}
+@media screen and (max-width:400px) {
+    .mid{
+        margin-left: 50px;
+        margin: 10px;
+    }  
+    .sap{
+        margin-left: 50px;
+    }
+    .sap2{
+        margin-left: 50px;
+    }
+    .but1{
+        background-color: red;
+        margin-left: 150px;
+    }
+    .container{
+        margin-left: 50px; 
+    }
+    .che{
+        margin: 30px 0 0 0;
+    }
+          
+}
