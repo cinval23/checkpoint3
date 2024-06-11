@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cinvals Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header Section -->
+  <header class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="text-2xl font-extrabold text-gray-900">CINVALS Blog</div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="text-gray-600 hover:text-gray-900">Home</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900">About</a></li>
+          <li><a href="#" class="text-gray-600 hover:text-gray-900">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Featured Posts Section -->
+  <section class="container mx-auto px-6 py-10">
+    <h2 class="text-4xl font-extrabold mb-6">Featured Posts</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img src="England euro.jpg" alt="Post Image" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="font-bold text-2xl mb-2">England drops their 23 mans squad for Euro 2024 tournament, Harry Maguire,James Maddison and Jack Grealish cuts out</h3>
+          <p class="text-gray-700">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, delectus suscipit repellendus non dolores corporis iste a doloribus vitae eius nihil, rerum maiores laborum. Blanditiis voluptatem nostrum totam quam excepturi?</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img src="boko.webp" alt="Post Image" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="font-bold text-2xl mb-2">Girls freed from Boko Haram in Nigeria can face further detention and abuse by military, Amnesty report finds</h3>
+          <p class="text-gray-700">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi, quas, eius corporis quibusdam, itaque cum corrupti mollitia deserunt maiores aliquid a praesentium recusandae qui. Voluptatem eius accusamus eveniet accusantium! Esse.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow-lg">
+        <img src="refinary.jpg" alt="Post Image" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h3 class="font-bold text-2xl mb-2">Shell supplies crude oil to Portharcourt refinary.</h3>
+          <p class="text-gray-700">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, blanditiis! Expedita perferendis earum nulla ut vero. Veniam perspiciatis ea, dolorem minus inventore voluptate ipsa, quisquam, id illum cupiditate facilis voluptatibus!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Category Section -->
+  <section class="container mx-auto px-6 py-10">
+    <h2 class="text-4xl font-extrabold mb-6">Categories</h2>
+    <div class="flex flex-wrap space-x-4">
+      <span class="bg-purple-100 text-purple-800 px-4 py-2 rounded-lg">Technology</span>
+      <span class="bg-green-100 text-green-800 px-4 py-2 rounded-lg">Health</span>
+      <span class="bg-yellow-100 text-yellow-800 px-4 py-2 rounded-lg">Lifestyle</span>
+      <span class="bg-red-100 text-red-800 px-4 py-2 rounded-lg">Business</span>
+    </div>
+  </section>
+
+  <!-- Recent Posts Section -->
+  <section class="container mx-auto px-6 py-10">
+    <h2 class="text-4xl font-extrabold mb-6">Recent Posts</h2>
+    <ul class="space-y-6">
+      <li>
+        <h3 class="font-bold text-2xl">Sacked CBN employees seek reinstatement, fault dismissal — Nigeria — The.....</h3>
+        <p class="text-gray-600">June 11, 2024</p>
+      </li>
+      <li>
+        <h3 class="font-bold text-2xl">[JUST IN] Democracy Day: FG declares Wednesday public holiday
+        </h3>
+        <p class="text-gray-600">June 10, 2024</p>
+      </li>
+      <li>
+        <h3 class="font-bold text-2xl">Apple brings ChatGPT to iPhones in AI overhaul
+        </h3>
+        <p class="text-gray-600">June 9, 2024</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Newsletter Subscription Form -->
+  <section class="container mx-auto px-6 py-10 bg-gray-100 rounded-lg shadow-md">
+    <h2 class="text-4xl font-extrabold mb-6">Subscribe to our Newsletter</h2>
+    <form action="#">
+      <div class="mb-6">
+        <label for="email" class="block text-sm font-medium text-gray-700">Email address</label>
+        <input type="email" id="email" name="email" class="mt-2 p-3 border border-gray-300 rounded-lg w-full" placeholder="you@example.com" required>
+      </div>
+      <button type="submit" class="bg-purple-600 text-white px-6 py-3 rounded-lg">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 mt-10">
+    <div class="container mx-auto px-6 flex justify-between items-center">
+      <p>&copy; 2024 CinvalBlog. All rights reserved.</p>
+      <div class="flex space-x-6">
+        <a href="#" class="hover:text-gray-400">Facebook</a>
+        <a href="#" class="hover:text-gray-400">Twitter</a>
+        <a href="#" class="hover:text-gray-400">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
